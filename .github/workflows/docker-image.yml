@@ -31,8 +31,6 @@ jobs:
           file: Main.dockerfile
           push: true
           tags: ghcr.io/izire-io/docker-test:latest
-          build-args: |
-            VERSION: 1.0.49
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
