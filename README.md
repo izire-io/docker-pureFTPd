@@ -1,4 +1,10 @@
 NOTE : This is copied from the source below, in order to be slighly adapted. No fork done as this is just one of many projects from the original repository. 
+
+- Pushed image to private ghcr.io
+- Build only linux/amd64
+- Changed pureftpd build configuration flags
+- ...?
+
 ## Source
 Dockerfile <https://github.com/vgist/dockerfiles/tree/master/pure-ftpd>
 
