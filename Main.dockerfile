@@ -26,6 +26,7 @@ RUN set -ex && \
         --without-humor \
         --with-virtualchroot \
         --with-minimal \
+        --with-virtualchroot \
         --with-throttling \
         --with-puredb \
         --with-peruserlimits \
