@@ -25,7 +25,6 @@ RUN set -ex && \
         --sysconfdir=/etc/pureftpd \
         --without-humor \
         --with-minimal \
-        --with-virtualchroot \
         --with-throttling \
         --with-puredb \
         --with-peruserlimits \
