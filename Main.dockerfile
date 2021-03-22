@@ -23,8 +23,8 @@ RUN set -ex && \
     ./configure \
         --prefix=/usr \
         --sysconfdir=/etc/pureftpd \
-        --with-virtualchroot \
         --without-humor \
+        --with-virtualchroot \
         --with-minimal \
         --with-throttling \
         --with-puredb \
